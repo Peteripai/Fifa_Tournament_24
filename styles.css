@@ -340,6 +340,48 @@ nav {
   color: var(--text-dark);
 }
 
+.prizes {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8; /* Light background for contrast */
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 400px; /* Limit width for readability on larger screens */
+}
+
+.prizes__title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.prizes__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.prizes__item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prizes__item h3 {
+  font-size: 1.5rem;
+  color: #007BFF; /* Highlighting color */
+  margin: 0;
+}
+
+.prizes__item p {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 5px 0 0;
+}
+
+
 .specs__card p {
   color: var(--text-light);
 }
@@ -526,6 +568,20 @@ nav {
     justify-content: space-between;
     gap: 2rem;
   }
+
+  .header__content {
+    text-align: center; /* Center the title */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+.header__title {
+    font-size: 12px; /* Font size responsive to viewport width */
+    font-weight: bold;
+    color: #333; /* Customize color as desired */
+    margin: 0; /* Remove default margins */
+    word-wrap: break-word; /* Allow the text to wrap on smaller screens if needed */
+}
+
 
   .nav__header {
     padding: 0;
